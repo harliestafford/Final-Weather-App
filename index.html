@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script></script>
+    <title>Weather App</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="body-container">
+        <div class="main-container">
+            <div class="row-1 navContainer">
+                <div class="col-1 logoBox">
+                </div>
+                <div class="col-2 searchBar">
+                    <input class="cityName" id="cityName" type="text" placeholder="city...">
+                    <button class="submitBtn">search</button>
+                </div>
+                <div class="newCityBTN"><button id="newCityBTN">NEW CITY</button></div>
+            </div>
+            
+            <div class="row-2 cityDateContainer">
+                <div class="col-1">
+                    <p id="location" class="location"></p>
+                    <p class="date"> Thursday, March 26</p>
+                </div>
+            </div>
+            <div class="row-3 tempsContainer">
+                <div class="col">
+                    <p class="temperature-low"></p>
+                </div>
+                <div class="col">
+                    <p class="temperature-feels"></p>
+                </div>
+                <div class="col">
+                    <p class="temperature-high"></p>
+                </div>
+            </div>
+            <div class="row-4 forecastContainer">
+                <div class="col-1">
+                    <img class="icon" src="#" alt="">
+                    <p class="forecast"></p>
+                </div>
+            </div>
+            <div class="row5 moreDetailsContainer">
+                <div class="col-1">
+                    <p class="humidity">Humidity 
+                    <br>
+                    <span class="humidityNum"></span></p>
+                    <p class="windspeed">Wind Speed
+                    <br>
+                    <span class="windNum"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>harlie b weather © 2020</footer>
+</body>
+
+    <script src="script.js"></script>
+</html>
